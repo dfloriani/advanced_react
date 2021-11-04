@@ -17,7 +17,7 @@ const GlobalStyles = createGlobalStyle`
     --grey: #3A3A3A;
     --gray: var(--grey); // backup in case I type it wrong
     --lightGrey: #e1e1e1;
-    --lightGray: var(---lightGrey);
+    --lightGray: var(--lightGrey);
     --offWhite: #ededed;
     --max-width: 1000px;
     --bs: 0 12px 24px 0 rgba(0,0,0,0.9);
