@@ -36,5 +36,6 @@
     "javascript",
     "javascriptreact"
   ],
-  "peacock.color": "#FFC600"
+  "peacock.color": "#FFC600",
+  "editor.tabSize": 2,
 }
