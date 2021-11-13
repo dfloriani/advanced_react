@@ -38,4 +38,7 @@
   ],
   "peacock.color": "#FFC600",
   "editor.tabSize": 2,
+  "files.watcherExclude": {
+    "**/target": true
+  },
 }

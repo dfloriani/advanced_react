@@ -36,5 +36,8 @@
     "javascript",
     "javascriptreact"
   ],
-  "peacock.color": "#FF2C70"
+  "peacock.color": "#FF2C70",
+  "files.watcherExclude": {
+    "**/target": true
+  }
 }
