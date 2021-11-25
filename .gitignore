@@ -9,3 +9,5 @@ variables.env
 *.env
 .keystone
 .metals/
+sick-fits/frontend/.vscode/settings.json
+sick-fits/backend/.vscode/settings.json
