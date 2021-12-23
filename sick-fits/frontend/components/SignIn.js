@@ -45,7 +45,7 @@ export default function SignIn() {
       ? data?.authenticateUserWithPassword
       : undefined;
   return (
-    <Form method="POST" onSubmit={handleSubmit}>
+    <Form method="POST" onSubmit={handleSubmit} data-test-id="signinForm">
       <h2>Sign into your account</h2>
       <Error error={error} />
       <fieldset>
@@ -58,6 +58,7 @@ export default function SignIn() {
             autoComplete="email"
             value={inputs.email}
             onChange={handleChange}
+            data-test-id="signinEmail"
           />
         </label>
         <label htmlFor="password">
@@ -69,9 +70,12 @@ export default function SignIn() {
             autoComplete="password"
             value={inputs.password}
             onChange={handleChange}
+            data-test-id="signinPassword"
           />
         </label>
-        <button type="submit">Sign in</button>
+        <button type="submit" data-test-id="signinButton">
+          Sign in
+        </button>
       </fieldset>
     </Form>
   );
